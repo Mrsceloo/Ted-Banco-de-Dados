@@ -1,0 +1,18 @@
+DELETE
+
+DELETE FROM CLIENTE
+WHERE nome='Armando Silveira Bravo';
+
+DELETE FROM FUNCIONARIO 
+WHERE tipo='F';
+
+
+UPDATE
+
+UPDATE CLIENTE
+SET nome='Armando Silveira Bravo'
+WHERE senha='txrwDVvFxUe@';
+
+UPDATE FUNCIONARIO
+SET nome='Rosimere Theodoro Manhães'
+WHERE salario='3750.00';

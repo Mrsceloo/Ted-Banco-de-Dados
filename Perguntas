@@ -1,0 +1,13 @@
+
+1- O comando a seguir seleciona o nome de todos os Clientes entre "Armando Silveira Bravo" e "Murilo Carvalheiro Alfradique":
+SELECT * FROM Cliente
+WHERE Nome BETWEEN 'Armando Silveira Bravo' AND 'Murilo Carvalheiro Alfradique'
+ORDER BY Nome;
+
+2- O comando seleciona todos os alugueis que NÃO assinaram o Plano HD (1)
+SELECT * FROM Aluguel
+WHERE cod_produto NOT IN ('1');
+
+3- O comando a seguir seleciona todos os campos de "Aluguel" em que o plano seja  'Full HD +4' e a forma de pagamento seja 'Cartão de Crédito':
+SELECT * FROM Aluguel
+WHERE Planos='Full HD +4' AND Forma de Pagamento='Cartão de Crédito';
